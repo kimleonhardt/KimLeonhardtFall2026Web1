@@ -1,0 +1,22 @@
+body{
+background:rgb(237, 39, 39);
+color:rgb(186, 227, 81);
+font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+h1{
+  font-family: "Almendra SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* descendants selects*/
+nav a {
+    color: rgb(234, 255, 0);
+}
+
+main a {
+    color: rgb(106, 2, 7);
+}
