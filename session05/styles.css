@@ -1,0 +1,65 @@
+body{
+background:#332728;
+color:rgb(186, 227, 81);
+font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+h1{
+  font-family: "Almendra SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* descendants selects*/
+nav a {
+    color: rgb(186, 227, 81);
+    text-decoration: none;
+    display: inline-block;
+    background-color: #9C0022;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid #331D1E;
+    font-size: 16px;
+}
+
+#headerSection{
+  background-color: #692E35;
+  padding: 20px;
+}
+nav: a:hover {
+  background-color:#150686;
+  border-color: 2px solid #2cb262;
+  font-size: 18px;
+}
+main a {
+    color: rgb(106, 2, 7);
+}
+
+div.artistEntry {
+   
+    border: 10px dotted #9C2634;
+    padding: 20px;
+    margin: 100px;
+    background-color: #692E35;
+
+}
+
+div.artistEntry img {
+   
+width: 100px;
+height: 100px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f00;
+  border: 3px solid rgb(0, 255, 213);
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+  margin: 0px; 
+  padding: 0px;
+
+}
