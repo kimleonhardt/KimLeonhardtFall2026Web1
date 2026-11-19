@@ -1,0 +1,96 @@
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+	color: #3a241d;
+	text-align: center;
+	font-family: cursive
+}
+
+
+#left-container {
+	left: 0px;
+}
+
+#right-container {
+	right: 0px;
+}
+
+.container {
+	background-color: #fdfdfa;
+	width: 15%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+.plant-holder {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+.candy {
+	position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 2;
+}
+
+
+.pumpkin {
+	position: absolute;
+	max-width: 100%;
+	max-height: 100%;
+	z-index: 2;
+}
+
+.pumpkin-holder {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+.jar-walls {
+	height: 80%;
+	width: 60%;
+	background: #da741a;
+	border-radius: 11rem;
+	position: absolute;
+	bottom: 0.5%;
+	left: 20%;
+	opacity: 1;
+	z-index: 1;
+}
+
+.jar-top {
+	width: 30%;
+	height: 5%;
+	background: #502a09;
+	position: absolute;
+	bottom: 80.5%;
+	left: 35%;
+	opacity: 1;
+	z-index: 1;
+}
+
+.jar-bottom {
+	width: 30%;
+	height: 2%;
+	background:  #502a09;
+	position: absolute;
+	bottom: 0%;
+	left: 35%;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
